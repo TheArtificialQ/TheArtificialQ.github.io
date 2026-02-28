@@ -1,1 +1,0 @@
-# TheArtificialQ.github.io

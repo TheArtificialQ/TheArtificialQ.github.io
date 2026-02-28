@@ -1,0 +1,12 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
+    {%- assign page_titles = site.pages | map: 'title' | compact %}
+    <a href="{{ '/' | relative_url }}" style="float: none; display: block; text-align: center;">
+      <img alt="{{ site.title | escape }}" src="/assets/images/header_800.png" />
+    </a>
+  </div>
+
+</header>
