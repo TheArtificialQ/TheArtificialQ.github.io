@@ -60,6 +60,8 @@ So, to give you a concrete answer to the question in the title of this section: 
 
 In the near future, I'd like to write another post with a list of all models I tested and their results.
 
+**UPDATE:** The post is now out, see [LLM model statistics from my Strix testing]({% post_url 2026-03-04-llm-model-statistics-from-my-strix-testing %})
+
 ## Results
 
 To put it simply, when I used **strix** with the **GPT-5.3 Codex** model, it successfully completed all three HTB machines on the first try (meaning: got both `user.txt` and `root.txt`). Here are the times and costs for each machine:
