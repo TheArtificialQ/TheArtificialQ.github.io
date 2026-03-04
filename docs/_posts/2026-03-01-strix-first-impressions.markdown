@@ -4,6 +4,7 @@ title:  "Strix - First impressions"
 date:   2026-02-28 21:42:00 +0100
 image:  /assets/images/strix-first-impressions.png
 author: TheArtificialQ
+hn_id:  47234248
 ---
 
 We've all heard it: penetration testers are over. Their job will soon be done by agentic AI frameworks that can find the same (or even more elusive) vulnerabilities for a fraction of their bloody money - and since they don't need to sleep, eat, or have a work-life balance, they can run 24/7.
