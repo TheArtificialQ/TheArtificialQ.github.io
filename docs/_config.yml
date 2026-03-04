@@ -24,7 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Random notes from a Red Teamer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theartificialq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+image: /assets/images/social-preview.png
+twitter_username: TheArtificialQ
 github_username:  TheArtificialQ
 
 google_analytics: G-PDEMGFHS4K
