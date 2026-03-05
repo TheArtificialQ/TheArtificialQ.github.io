@@ -9,7 +9,7 @@ hn_id:  47257874
 
 In my [previous post]({% post_url 2026-03-01-strix-first-impressions %}) I summarized a few impressions from my **[strix](https://github.com/usestrix/strix)** testing (TL;DR I was impressed).
 
-Since then, I have collected some hard data and summarized it on [this page]({{ '/ai-offsec-benchmarks/' | relative_url }}). I still haven't run enough tests to be able to objectively compare different models, but I believe that page is not a bad starting point when selecting an LLM model for your own testing.
+Since then, I have collected some hard data and summarized it on [this page]({{ '/ai-offsec-benchmarks.html' | relative_url }}). I still haven't run enough tests to be able to objectively compare different models, but I believe that page is not a bad starting point when selecting an LLM model for your own testing.
 
 Beyond the numbers, here are some short personal observations for each model.
 
@@ -39,7 +39,7 @@ This was the biggest disappointment of my testing. Despite its famous name, this
 
 ### gpt-5-mini and gpt-5-nano
 
-My [page with test results]({{ '/ai-offsec-benchmarks/' | relative_url }}) contains just one test for **gpt-5-mini**, but I used it multiple times, together with **gpt-5-nano**. Unfortunately I didn't collect statistics for all those tests, but they were very consistent - low price per test, but virtually no successful findings.
+My [page with test results]({{ '/ai-offsec-benchmarks.html' | relative_url }}) contains just one test for **gpt-5-mini**, but I used it multiple times, together with **gpt-5-nano**. Unfortunately I didn't collect statistics for all those tests, but they were very consistent - low price per test, but virtually no successful findings.
 
 ### Honorable mention: stepfun/step-3.5-flash:free
 
