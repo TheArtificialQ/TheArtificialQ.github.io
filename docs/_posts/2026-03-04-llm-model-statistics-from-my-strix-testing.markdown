@@ -3,7 +3,7 @@ layout: post
 title:  "LLM model statistics from my Strix testing"
 date:   2026-03-04 00:00:00 +0100
 author: TheArtificialQ
-hn_id:  
+hn_id:  47257874
 ---
 
 In my [previous post]({% post_url 2026-03-01-strix-first-impressions %}) I summarized a few impressions from my **[strix](https://github.com/usestrix/strix)** testing (TL;DR I was impressed).
