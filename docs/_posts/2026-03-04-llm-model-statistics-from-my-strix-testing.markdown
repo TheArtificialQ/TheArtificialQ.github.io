@@ -2,6 +2,7 @@
 layout: post
 title:  "LLM model statistics from my Strix testing"
 date:   2026-03-04 00:00:00 +0100
+image:  /assets/images/social-preview.png
 author: TheArtificialQ
 hn_id:  47257874
 ---
