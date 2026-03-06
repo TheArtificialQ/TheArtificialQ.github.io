@@ -4,7 +4,7 @@ title:  "How GPT-5.4 performed with Strix - and why it fell short"
 date:   2026-03-06 00:00:00 +0100
 image:  /assets/images/social-preview.png
 author: TheArtificialQ
-hn_id:  47275227
+hn_id:  47275311
 ---
 
 GPT-5.4 was released just yesterday and because I'm currently testing the **[strix](https://github.com/usestrix/strix)** autonomous AI tool for web penetration testing, the temptation to compare it with other LLM models was too strong to resist. As I already spoiled in the title, the results were pretty bad. But there could be a good explanation for this.
