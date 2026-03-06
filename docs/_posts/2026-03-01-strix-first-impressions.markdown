@@ -130,7 +130,7 @@ There is one limitation of **strix**. Since the main engine runs in a Docker con
 
 ```
 ## Reverse Shell
-- Do not try to create a reverse shell connection (or similar) from the outside — you’re running in a Docker container, so the request won’t reach your listener.
+- Do not try to create a reverse shell connection (or similar) from the outside - you’re running in a Docker container, so the request won’t reach your listener.
 ```
 
 Needless to say, that didn't always work, and many models (including **Gemini 3.1 Pro Preview**) still tried to create reverse shells.
