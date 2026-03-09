@@ -4,7 +4,7 @@ title:  "How not to test LLM models"
 date:   2026-03-09 00:00:00 +0100
 image:  /assets/images/social-preview.png
 author: TheArtificialQ
-hn_id:  
+hn_id:  47314569
 ---
 
 In the Czech Republic, we have a whole lore built around a fictitious character called [Jára Cimrman](https://en.wikipedia.org/wiki/J%C3%A1ra_Cimrman). He was partially a genius (one of the greatest playwrights, composers, teachers, travellers, inventors, detectives, gynecologists and sportsmen, among many other things) but mostly a loser ("... while running away from one furious tribe, he missed the North Pole by just seven meters, thus almost becoming the first human to reach the North Pole.") One of his strongest skills was finding dead ends. He found many ways in which things should NOT be done and helped humanity many times by being able to authoritatively say: "This isn’t the way to do it, my friends!"
