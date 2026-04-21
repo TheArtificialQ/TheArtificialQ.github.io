@@ -4,7 +4,7 @@ title:  "Kimi K2.6 with Strix: a quick test"
 date:   2026-04-21 09:00:00 +0100
 image:  /assets/images/2026-04-21-ModelScoreRanges-kimi-k26.png
 author: TheArtificialQ
-hn_id:  
+hn_id:  47847091
 ---
 
 The [Kimi K2.6](https://www.kimi.com/blog/kimi-k2-6) was released just yesterday, and looking at the benchmarks quoted in the release blog post, one could easily get the impression that it is the best model ever released. So I decided to do a quick test.
