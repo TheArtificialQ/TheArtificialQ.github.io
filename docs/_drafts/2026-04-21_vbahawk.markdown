@@ -1,0 +1,29 @@
+---
+layout: post
+title:  
+date:   2026-04-21 13:00:00 +0100
+image:  /assets/images/social-preview.png
+author: TheArtificialQ
+hn_id:  
+---
+
+The latest major version of the Nighthawk C2 framework allows you to create your own C2 agents which use Nighthawk communication protocol for communicating with the Nighthawk server.
+
+This is a short case study about how I created Office macro (VBA) agent.
+
+<!--more-->
+
+## Short Intro
+
+If you are fimiliar with the whole 
+
+Here is a short intro into the topic of creating C2 agents, if is area.
+
+C2 (Command & Control) frameworks have typically two main parts: the C2 server installed on the attacker's server and C2 agent, which is ran on victim's machine. After its start, the C2 agent connects back to C2 server and allows the attacker to execute commands from the server on victim's machine.
+
+Most C2 frameworks can create agents in forms of some executables (.exe), but they are heavily signatured by AV vendors and they are typically immediately detected and quarantined by the antivirus application.
+
+For this reason, the most common workflow is to let the C2 framework generate "shellcode", which is the raw binary code containing the C2 agent logic. Then you need to use all your skills to create the C2 agent which loads this shellcode into the memory, execute it and keep it undetected as long as possible. 
+
+Creating C2 agents is a precious art.
+
