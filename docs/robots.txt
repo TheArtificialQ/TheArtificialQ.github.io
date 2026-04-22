@@ -1,0 +1,111 @@
+User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: GPTBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: OAI-SearchBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: Claude-Web
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: Google-Extended
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: Amazonbot
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: anthropic-ai
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: Bytespider
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: CCBot
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+User-agent: Applebot-Extended
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+Allow: /about/
+Allow: /ai-offsec-benchmarks/
+Allow: /assets/css/
+Allow: /assets/images/
+Disallow: /404.html
+Disallow: /_drafts/
+Disallow: /_site/
+
+Sitemap: https://theartificialq.github.io/sitemap.xml
