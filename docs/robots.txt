@@ -98,4 +98,4 @@ Disallow: /404.html
 Disallow: /_drafts/
 Disallow: /_site/
 
-Sitemap: https://theartificialq.github.io/sitemap.xml
+Sitemap: https://theaq.blog/sitemap.xml
