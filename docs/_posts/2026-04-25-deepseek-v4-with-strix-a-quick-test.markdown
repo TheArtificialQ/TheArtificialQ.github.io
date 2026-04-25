@@ -4,7 +4,7 @@ title:  "Deepseek V4 with Strix: a quick test"
 date:   2026-04-25 17:00:00 +0100
 image:  /assets/images/2026-04-25-ModelScoreRanges-deepseek.png
 author: TheArtificialQ
-hn_id:  
+hn_id:  47903242
 ---
 
 Deepseek released V4 yesterday in two variants. **V4 Pro** has 1.6T total parameters with 49B active, while **V4 Flash** is the smaller, faster, cheaper sibling with 284B total and 13B active. In the [release notes](https://api-docs.deepseek.com/news/news260424), the company claims that V4 Pro rivals the world's best closed-source models in reasoning and leads all open models on agentic coding benchmarks. It also says that V4 Flash comes surprisingly close despite its smaller size and can match Pro on simpler agentic tasks.
