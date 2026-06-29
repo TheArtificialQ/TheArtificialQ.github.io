@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How much better is Strix 1.0? Results from a small rerun"
-date:   2026-04-28 17:00:00 +0100
-image:  /assets/images/social-preview.png
+date:   2026-04-28 14:00:00 +0100
+image:  /assets/images/2026-06-29-ScoreRanges.png
 author: TheArtificialQ
 hn_id:  
 ---
@@ -39,6 +39,19 @@ Here are the results for both models. Each table shows selected metrics from the
 |---|---:|---:|---:|---:|
 | v0.8.3 | **61.1** | $14.1 | 30.8 M | 393 |
 | v1.0.4 | **70.6** | $12.2 | 49.9 M | 628 |
+
+#### Charts
+
+Here are some visualisations of these results, so you can compare them with the results from other LLMs that I tested previously. The older results in these charts were all produced with Strix v0.8.3; I just added results from tests with the latest Strix version and highlighted them in red.
+
+The first chart shows the tested LLMs, sorted by average score from highest to lowest. Alongside the average, shown as the orange point on each line, you can also see each model's score range across all three test runs.
+
+![Model Score Ranges]({{ "/assets/images/2026-06-29-ScoreRanges.png" | relative_url }})
+
+The second chart (and I appreciate that it's already a bit crowded) shows the average score alongside the average cost per test for each LLM.
+
+![Model Performance]({{ "/assets/images/2026-06-29-CostVsScore.png" | relative_url }})
+
 
 ## What the numbers suggest
 
