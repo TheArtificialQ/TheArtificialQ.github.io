@@ -1,12 +1,27 @@
 <header class="site-header">
 
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
-    {%- assign page_titles = site.pages | map: 'title' | compact %}
+    {%- assign header_image = page.header_image | default: "/assets/images/header_800.png" -%}
+    {%- assign header_alt = page.header_alt | default: site.title -%}
     <a href="{{ '/' | relative_url }}" style="float: none; display: block; text-align: center;">
-      <img alt="{{ site.title | escape }}" src="/assets/images/header_800.png" />
+      <img alt="{{ header_alt | escape }}" src="{{ header_image | relative_url }}" />
     </a>
+
+    {%- assign current_section = "blog" -%}
+    {%- if page.url contains "/htb-challenger-benchmark" -%}
+      {%- assign current_section = "benchmark" -%}
+    {%- endif -%}
+
+    <nav class="site-section-switcher" aria-label="Primary sections">
+      <a class="site-section-switcher__link" href="{{ '/' | relative_url }}"{% if current_section == "blog" %} aria-current="true"{% endif %}>
+        <img class="site-section-switcher__icon" src="{{ '/assets/images/TheArtificialQ_notext.png' | relative_url }}" alt="" width="24" height="24" />
+        <span>The ArtificialQ Blog</span>
+      </a>
+      <a class="site-section-switcher__link" href="{{ '/htb-challenger-benchmark/' | relative_url }}"{% if current_section == "benchmark" %} aria-current="true"{% endif %}>
+        <img class="site-section-switcher__icon site-section-switcher__icon--benchmark" src="{{ '/assets/images/htb-challenger-benchmark-logo-small.png' | relative_url }}" alt="" width="20" height="20" />
+        <span>HTB-Challenger Benchmark</span>
+      </a>
+    </nav>
   </div>
 
 </header>
