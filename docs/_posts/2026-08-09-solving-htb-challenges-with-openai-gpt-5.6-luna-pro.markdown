@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving Hack The Box Challenges with GPT-5.6 Luna Pro"
 date:   2026-08-10 16:51:46 +0000
-image:  /assets/images/openai-gpt-5.6-luna-pro-20260709-model-card.svg
+image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ
 hn_id:  
 ---

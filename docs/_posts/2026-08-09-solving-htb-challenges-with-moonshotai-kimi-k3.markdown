@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving Hack The Box Challenges with Kimi K3"
 date:   2026-08-10 16:52:46 +0000
-image:  /assets/images/moonshotai-kimi-k3-20260715-model-card.svg
+image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ
 hn_id:  
 ---

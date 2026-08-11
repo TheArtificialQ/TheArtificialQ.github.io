@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing HTB-Challenger: Benchmarking LLM models on Hack The Box Challenges"
 date:   2026-08-10 14:30:47 +0000
-image:  /assets/images/htb-challenger-benchmark-logo-full.png
+image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ
 hn_id:  
 ---
