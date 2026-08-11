@@ -38,7 +38,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 
 - **Number of challenges:** 16
 - **Number of solved challenges:** 11
-- **Incorrect flag submissions:** 0
+- **Number of false positives:** 0
 - **Runs where the model gave up:** 4
 - **Runs that reached the step or cost limit:** 1
 - **Benchmark score:** 55.0%
@@ -61,7 +61,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 4
-- **Incorrect flag submissions:** 0
+- **Number of false positives:** 0
 - **Runs where the model gave up:** 0
 - **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 100.0%
@@ -82,7 +82,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 4
-- **Incorrect flag submissions:** 0
+- **Number of false positives:** 0
 - **Runs where the model gave up:** 0
 - **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 100.0%
@@ -103,7 +103,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 2
-- **Incorrect flag submissions:** 0
+- **Number of false positives:** 0
 - **Runs where the model gave up:** 2
 - **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 50.0%
@@ -124,7 +124,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 1
-- **Incorrect flag submissions:** 0
+- **Number of false positives:** 0
 - **Runs where the model gave up:** 2
 - **Runs that reached the step or cost limit:** 1
 - **Benchmark score:** 25.0%

@@ -35,14 +35,14 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 - **Number of challenges:** 16
 - **Number of solved challenges:** 8
 - **Number of false positives:** 0
-- **Number of give ups:** 8
-- **Number of max steps or cost limits reached:** 0
+- **Runs where the model gave up:** 8
+- **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 32.5%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
-| Number of steps | 17.5 | 431 |
-| Cost of tokens | $0.02 | $0.58 |
+| Model steps | 17.5 | 431 |
+| Model cost | $0.02 | $0.58 |
 | Duration | 00:04:38 | 02:03:31 |
 | Number of input tokens | 0.34M | 16.84M |
 | Number of output tokens | 0.02M | 0.32M |
@@ -51,21 +51,21 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 | Number of `execute_command` tool calls | 28.0 | 609 |
 | Number of `web_search` tool calls | 0.0 | 3 |
 
-## Metrics by challenge difficulty
+## Results by challenge difficulty
 
-### Very Easy
+### Very Easy challenges
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 4
 - **Number of false positives:** 0
-- **Number of give ups:** 0
-- **Number of max steps or cost limits reached:** 0
+- **Runs where the model gave up:** 0
+- **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 100.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
-| Number of steps | 11.5 | 46 |
-| Cost of tokens | $0.01 | $0.05 |
+| Model steps | 11.5 | 46 |
+| Model cost | $0.01 | $0.05 |
 | Duration | 00:01:56 | 00:08:54 |
 | Number of input tokens | 0.11M | 1.24M |
 | Number of output tokens | 0.00M | 0.02M |
@@ -74,19 +74,19 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 | Number of `execute_command` tool calls | 11.5 | 77 |
 | Number of `web_search` tool calls | 0.0 | 2 |
 
-### Easy
+### Easy challenges
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 3
 - **Number of false positives:** 0
-- **Number of give ups:** 1
-- **Number of max steps or cost limits reached:** 0
+- **Runs where the model gave up:** 1
+- **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 75.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
-| Number of steps | 15.5 | 75 |
-| Cost of tokens | $0.01 | $0.05 |
+| Model steps | 15.5 | 75 |
+| Model cost | $0.01 | $0.05 |
 | Duration | 00:05:04 | 00:21:14 |
 | Number of input tokens | 0.27M | 1.26M |
 | Number of output tokens | 0.01M | 0.05M |
@@ -95,19 +95,19 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 | Number of `execute_command` tool calls | 24.5 | 101 |
 | Number of `web_search` tool calls | 0.0 | 1 |
 
-### Medium
+### Medium challenges
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 1
 - **Number of false positives:** 0
-- **Number of give ups:** 3
-- **Number of max steps or cost limits reached:** 0
+- **Runs where the model gave up:** 3
+- **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 25.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
-| Number of steps | 25 | 144 |
-| Cost of tokens | $0.05 | $0.22 |
+| Model steps | 25 | 144 |
+| Model cost | $0.05 | $0.22 |
 | Duration | 00:09:07 | 00:38:38 |
 | Number of input tokens | 0.96M | 6.21M |
 | Number of output tokens | 0.03M | 0.15M |
@@ -116,19 +116,19 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 | Number of `execute_command` tool calls | 33.0 | 170 |
 | Number of `web_search` tool calls | 0.0 | 0 |
 
-### Hard
+### Hard challenges
 
 - **Number of challenges:** 4
 - **Number of solved challenges:** 0
 - **Number of false positives:** 0
-- **Number of give ups:** 4
-- **Number of max steps or cost limits reached:** 0
+- **Runs where the model gave up:** 4
+- **Runs that reached the step or cost limit:** 0
 - **Benchmark score:** 0.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
-| Number of steps | 40 | 166 |
-| Cost of tokens | $0.06 | $0.25 |
+| Model steps | 40 | 166 |
+| Model cost | $0.06 | $0.25 |
 | Duration | 00:13:30 | 00:54:46 |
 | Number of input tokens | 1.93M | 8.13M |
 | Number of output tokens | 0.03M | 0.11M |
