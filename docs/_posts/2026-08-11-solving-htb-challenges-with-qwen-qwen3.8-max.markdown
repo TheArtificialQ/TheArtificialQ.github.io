@@ -22,7 +22,7 @@ Qwen3.8 Max was released recently, but it didn't create much buzz. I was wonderi
 
 I know this model has a relatively big fan base among software developers, but based on my results, I bet it won't win many fans among pentesters and red teamers.
 
-Put simply, it's by far the most expensive model I've tested so far, while its results are only mediocre. It solved 9 of 16 challenges and scored 47.5%. For comparison, [GPT 5.6 Luna Pro]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %}) scored a similar 55.0%, but its median cost per challenge was only $0.10 - one-twentieth of Qwen3.8 Max's $2.00.
+Put simply, it's by far the most expensive model I've tested so far, while its results are only mediocre. It solved 10 of 16 challenges and scored 57.5%. For comparison, [GPT 5.6 Luna Pro]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %}) scored a similar 55.0%, but its median cost per challenge was only $0.10 - one-twentieth of Qwen3.8 Max's $2.00.
 
 Of course, this benchmark covers self-contained HTB challenges, not full pentests or red-team engagements. Still, the price-to-performance ratio for this kind of offensive security task is hard to justify.
 
@@ -35,12 +35,12 @@ I'm really not sure what the use case for this model is. If you already use it f
 ## Overall benchmark results
 
 - **Number of challenges:** 16
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 9
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 10
 - **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 3
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 3
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 47.5%
+- **Benchmark score:** 57.5%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -125,12 +125,12 @@ I'm really not sure what the use case for this model is. If you already use it f
 ### Hard challenges
 
 - **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 1
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 2
 - **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 25.0%
+- **Benchmark score:** 50.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
