@@ -8,10 +8,10 @@
       <stop offset="1" stop-color="#0d2633"/>
     </linearGradient>
     <radialGradient id="point-halo" cx="30%" cy="24%" r="78%">
-      <stop offset="0" stop-color="#b9fff5"/>
-      <stop offset=".28" stop-color="#63f3df"/>
-      <stop offset=".66" stop-color="#2f8491"/>
-      <stop offset="1" stop-color="#123544"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".34" stop-color="#f4fffe"/>
+      <stop offset=".72" stop-color="#c9f4f1"/>
+      <stop offset="1" stop-color="#82cbd1"/>
     </radialGradient>
     <filter id="point-shadow" x="-70%" y="-70%" width="240%" height="240%">
       <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#031017" flood-opacity=".75"/>

@@ -6,7 +6,7 @@ header_image: /assets/images/htb-challenger-benchmark-bg.png
 header_alt: HTB-Challenger Benchmark
 ---
 
-*Last updated: 2026-08-12 15:11:26 UTC*
+*Last updated: 2026-08-12 15:43:47 UTC*
 
 The HTB-Challenger Benchmark measures how well large language models solve a fixed set of 16 recent Hack The Box cybersecurity challenges in a controlled environment. For more information, visit the [HTB-Challenger Benchmark Methodology page]({{ "/htb-challenger-benchmark-methodology" | relative_url }}).
 
