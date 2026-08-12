@@ -6,7 +6,7 @@ header_image: /assets/images/htb-challenger-benchmark-bg.png
 header_alt: HTB-Challenger Benchmark
 ---
 
-*Last updated: 2026-08-12 15:43:47 UTC*
+*Last updated: 2026-08-12 20:05:34 UTC*
 
 The HTB-Challenger Benchmark measures how well large language models solve a fixed set of 16 recent Hack The Box cybersecurity challenges in a controlled environment. For more information, visit the [HTB-Challenger Benchmark Methodology page]({{ "/htb-challenger-benchmark-methodology" | relative_url }}).
 
@@ -28,7 +28,7 @@ Click a model name in the table to view more details about its benchmark results
 
 | Model | Score | Cost | Steps | Duration | Tokens |
 | ---  | ---: | ---: | ---: | ---: | ---: |
-| <img src="{{ "/assets/images/x-ai-icon.svg" | relative_url }}" alt="x-ai icon" width="22" height="22"> [`x-ai/grok-4.5`]({% post_url 2026-08-12-solving-htb-challenges-with-x-ai-grok-4.5 %}) | 90.0% | $0.25 | 13.5 | 00:05:48 | 0.29M |
+| <img src="{{ "/assets/images/x-ai-icon.svg" | relative_url }}" alt="x-ai icon" width="22" height="22"> [`x-ai/grok-4.6`]({% post_url 2026-08-12-solving-htb-challenges-with-x-ai-grok-4.6 %}) | 80.0% | $0.23 | 14.0 | 00:03:38 | 0.24M |
 | <img src="{{ "/assets/images/moonshotai-icon.svg" | relative_url }}" alt="moonshotai icon" width="22" height="22"> [`moonshotai/kimi-k3`]({% post_url 2026-08-09-solving-htb-challenges-with-moonshotai-kimi-k3 %}) | 75.0% | $0.46 | 22.0 | 00:07:34 | 0.35M |
 | <img src="{{ "/assets/images/qwen-icon.svg" | relative_url }}" alt="qwen icon" width="22" height="22"> [`qwen/qwen3.8-max`]({% post_url 2026-08-11-solving-htb-challenges-with-qwen-qwen3.8-max %}) | 57.5% | $2.00 | 29.0 | 00:15:32 | 0.96M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`openai/gpt-5.6-luna-pro`]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %}) | 55.0% | $0.10 | 21.5 | 00:08:55 | 1.57M |
