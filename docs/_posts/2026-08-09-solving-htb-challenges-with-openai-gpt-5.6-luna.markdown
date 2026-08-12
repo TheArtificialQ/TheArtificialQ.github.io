@@ -30,13 +30,14 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 
 ![HTB-Challenger Benchmark LLM model card]({{ "/assets/images/openai-gpt-5.6-luna-20260709-model-card.svg" | relative_url }})
 
-## Total metrics
+## Overall benchmark results
 
 - **Number of challenges:** 16
-- **Number of solved challenges:** 8
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 8
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 8
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 8
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 32.5%
 
 | Metric | Per challenge (median) | Total |
@@ -56,10 +57,11 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 ### Very Easy challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 4
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 0
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 4
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 100.0%
 
 | Metric | Per challenge (median) | Total |
@@ -77,10 +79,11 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 ### Easy challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 3
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 1
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 3
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 75.0%
 
 | Metric | Per challenge (median) | Total |
@@ -98,10 +101,11 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 ### Medium challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 1
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 3
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 1
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 3
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 25.0%
 
 | Metric | Per challenge (median) | Total |
@@ -119,10 +123,11 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 ### Hard challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 0
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 4
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 0
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 4
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 0.0%
 
 | Metric | Per challenge (median) | Total |

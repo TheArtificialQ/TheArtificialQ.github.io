@@ -35,10 +35,11 @@ I'm really not sure what the use case for this model is. If you already use it f
 ## Overall benchmark results
 
 - **Number of challenges:** 16
-- **Number of solved challenges:** 9
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 3
-- **Runs that reached the step or cost limit:** 3
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 9
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 3
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 3
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 47.5%
 
 | Metric | Per challenge (median) | Total |
@@ -58,10 +59,11 @@ I'm really not sure what the use case for this model is. If you already use it f
 ### Very Easy challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 3
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 0
-- **Runs that reached the step or cost limit:** 1
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 3
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 75.0%
 
 | Metric | Per challenge (median) | Total |
@@ -79,10 +81,11 @@ I'm really not sure what the use case for this model is. If you already use it f
 ### Easy challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 3
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 1
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 3
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 75.0%
 
 | Metric | Per challenge (median) | Total |
@@ -100,10 +103,11 @@ I'm really not sure what the use case for this model is. If you already use it f
 ### Medium challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 2
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 2
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 2
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 2
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 50.0%
 
 | Metric | Per challenge (median) | Total |
@@ -121,10 +125,11 @@ I'm really not sure what the use case for this model is. If you already use it f
 ### Hard challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 1
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 0
-- **Runs that reached the step or cost limit:** 2
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 1
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 25.0%
 
 | Metric | Per challenge (median) | Total |

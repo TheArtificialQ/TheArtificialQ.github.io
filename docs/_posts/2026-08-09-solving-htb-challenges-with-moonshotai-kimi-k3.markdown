@@ -37,10 +37,11 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 ## Overall benchmark results
 
 - **Number of challenges:** 16
-- **Number of solved challenges:** 13
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 1
-- **Runs that reached the step or cost limit:** 2
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 13
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 75.0%
 
 | Metric | Per challenge (median) | Total |
@@ -60,10 +61,11 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 ### Very Easy challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 4
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 0
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 4
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 100.0%
 
 | Metric | Per challenge (median) | Total |
@@ -81,10 +83,11 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 ### Easy challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 3
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 0
-- **Runs that reached the step or cost limit:** 1
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 3
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 75.0%
 
 | Metric | Per challenge (median) | Total |
@@ -102,10 +105,11 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 ### Medium challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 4
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 0
-- **Runs that reached the step or cost limit:** 0
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 4
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 100.0%
 
 | Metric | Per challenge (median) | Total |
@@ -123,10 +127,11 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 ### Hard challenges
 
 - **Number of challenges:** 4
-- **Number of solved challenges:** 2
-- **Number of false positives:** 0
-- **Runs where the model gave up:** 1
-- **Runs that reached the step or cost limit:** 1
+- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 2
+- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
+- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
+- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 50.0%
 
 | Metric | Per challenge (median) | Total |
