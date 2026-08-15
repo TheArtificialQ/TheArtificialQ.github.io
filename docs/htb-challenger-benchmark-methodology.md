@@ -39,11 +39,9 @@ These conditions keep tests bounded and give every model the same maximum opport
 
 ## Metrics
 
-The main benchmark metric is the model's success rate. It is weighted by challenge XP and calculated as:
+The main benchmark metric is an XP-weighted benchmark score. Unsolved challenges contribute no XP. For solved challenges, the XP earned also depends on how efficiently the model solved the challenge in terms of model steps. A solution completed in the challenge's reference (Par) number of steps earns the full XP reward, while solutions that require more steps earn progressively less, down to 70% of the XP at the 100-step limit. Solutions completed in fewer than Par steps are capped at the full XP reward.
 
-`success rate = XP from successfully solved challenges / XP available from all challenges`
-
-The XP reward reflects challenge difficulty and ranges from 130 to 520 XP. As a result, solving a more difficult challenge contributes more to the success rate than solving an easier one.
+The final benchmark score is the effective XP earned across all challenges divided by the total XP available, expressed as a percentage. The XP reward reflects challenge difficulty and ranges from 130 to 520 XP, so solving more difficult challenges still contributes more to the score than solving easier ones.
 
 The benchmark also reports two per-task efficiency metrics:
 

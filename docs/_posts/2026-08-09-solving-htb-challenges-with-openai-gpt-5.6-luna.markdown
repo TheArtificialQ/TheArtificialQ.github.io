@@ -38,7 +38,7 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 8
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 32.5%
+- **Benchmark score:** 31.6%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -62,7 +62,7 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 97.8%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -84,7 +84,7 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 75.0%
+- **Benchmark score:** 72.1%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -106,7 +106,7 @@ Also check out the results for [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 3
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 25.0%
+- **Benchmark score:** 24.7%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |

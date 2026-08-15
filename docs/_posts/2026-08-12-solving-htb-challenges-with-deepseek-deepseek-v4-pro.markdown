@@ -36,7 +36,7 @@ The performance gap between **DeepSeek V4 Pro** and the leaders of my benchmark 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 8
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 37.5%
+- **Benchmark score:** 36.2%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -60,7 +60,7 @@ The performance gap between **DeepSeek V4 Pro** and the leaders of my benchmark 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 75.0%
+- **Benchmark score:** 71.4%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -82,7 +82,7 @@ The performance gap between **DeepSeek V4 Pro** and the leaders of my benchmark 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 75.0%
+- **Benchmark score:** 72.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -104,7 +104,7 @@ The performance gap between **DeepSeek V4 Pro** and the leaders of my benchmark 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 50.0%
+- **Benchmark score:** 49.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |

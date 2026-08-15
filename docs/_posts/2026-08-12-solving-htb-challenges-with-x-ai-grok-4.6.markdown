@@ -22,7 +22,7 @@ Today, Grok 4.6 was released and I've finally had a chance to test it against HT
 
 ---
 
-During my testing, I watched this model crack one HTB challenge after another in a steady, confident way, and the final boss fight against the last two challenges was exhilarating, even though it was ultimately unsuccessful. In the end, with a 80% score, it's the undisputed new king of my leaderboard - not only because of its results, but also because of its speed (it had the fewest steps per challenge of all the models I've tested so far) and cost. Look at the **Cost vs. Benchmark Score** graph on the [HTB-Challenger Benchmark]({{ "/htb-challenger-benchmark" | relative_url }}) page to see what I mean.
+During my testing, I watched this model crack one HTB challenge after another in a steady, confident way, and the final boss fight against the last two challenges was exhilarating, even though it was ultimately unsuccessful. In the end, with a 76.1% score, it's the undisputed new king of my leaderboard - not only because of its results, but also because of its speed (it had the fewest steps per challenge of all the models I've tested so far) and cost. Look at the **Cost vs. Benchmark Score** graph on the [HTB-Challenger Benchmark]({{ "/htb-challenger-benchmark" | relative_url }}) page to see what I mean.
 
 So let's forget that useless old version. For me, **Grok 4.6** is currently the best model I've tested on offensive-security challenges.
 
@@ -38,7 +38,7 @@ So let's forget that useless old version. For me, **Grok 4.6** is currently the 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 80.0%
+- **Benchmark score:** 76.1%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -62,7 +62,7 @@ So let's forget that useless old version. For me, **Grok 4.6** is currently the 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 97.5%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -84,7 +84,7 @@ So let's forget that useless old version. For me, **Grok 4.6** is currently the 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 98.4%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -106,7 +106,7 @@ So let's forget that useless old version. For me, **Grok 4.6** is currently the 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 93.6%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -128,7 +128,7 @@ So let's forget that useless old version. For me, **Grok 4.6** is currently the 
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 50.0%
+- **Benchmark score:** 46.6%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |

@@ -22,7 +22,7 @@ Kimi K3 landed with a big splash just three weeks ago, and the initial reviewers
 
 In short, my numbers line up pretty well with what you may have already read or heard about **Kimi K3**.
 
-So far, I can compare it only with [GPT-5.6 Luna]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna %}) and [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %}), and the difference is clear. **Kimi K3** achieved an XP-weighted benchmark score of 75%, well ahead of **Luna** at 32.5% and **Luna Pro** at 55%. That was more or less what I expected based on the initial reviews.
+So far, I can compare it only with [GPT-5.6 Luna]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna %}) and [GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %}), and the difference is clear. **Kimi K3** achieved an XP-weighted benchmark score of 70.7%, well ahead of **Luna** at 31.6% and **Luna Pro** at 51.3%. That was more or less what I expected based on the initial reviews.
 
 The difference also shows up where it matters for harder offensive-security tasks. **Kimi K3** solved all four Medium challenges and two of the four Hard ones. **Luna Pro** solved two Medium challenges and one Hard challenge, while **Luna** solved only one Medium challenge and no Hard challenges.
 
@@ -42,7 +42,7 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 75.0%
+- **Benchmark score:** 70.7%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -66,7 +66,7 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 96.6%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -88,7 +88,7 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 75.0%
+- **Benchmark score:** 72.6%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -110,7 +110,7 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 94.0%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -132,7 +132,7 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 50.0%
+- **Benchmark score:** 45.7%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |

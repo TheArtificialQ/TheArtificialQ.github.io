@@ -42,7 +42,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 4
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 55.0%
+- **Benchmark score:** 51.3%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -66,7 +66,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 98.4%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -88,7 +88,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 100.0%
+- **Benchmark score:** 95.5%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -110,7 +110,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 2
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 50.0%
+- **Benchmark score:** 47.1%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -132,7 +132,7 @@ I believe the main use case for **Luna Pro** is if you are tied to the OpenAI ec
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 2
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 25.0%
+- **Benchmark score:** 20.5%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |

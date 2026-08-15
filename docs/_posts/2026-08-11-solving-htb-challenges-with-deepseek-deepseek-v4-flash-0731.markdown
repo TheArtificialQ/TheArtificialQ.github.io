@@ -22,7 +22,7 @@ That's why I was looking forward to testing the latest, improved version on my [
 
 ---
 
-Okay, let's start with the results: they are bad. It solved just 2 out of 16 HTB challenges and scored 10% on my benchmark. But that's not the worst or most puzzling thing about this model.
+Okay, let's start with the results: they are bad. It solved just 2 out of 16 HTB challenges and scored 8.2% on my benchmark. But that's not the worst or most puzzling thing about this model.
 
 What worried me more was the number of false positives: it reported incorrect flags in 9 challenges. Sometimes these flags were completely made up, like `HTB{...}` or `HTB{dummy}`. In other cases, it submitted a fake flag from the attached source code or a random string that seemed to come out of nowhere. To put this into perspective, not one of the other models I've tested so far has reported even a single incorrect flag.
 
@@ -50,7 +50,7 @@ This is very different from how tools like [Strix](https://github.com/usestrix/s
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 3
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 1
-- **Benchmark score:** 10.0%
+- **Benchmark score:** 8.2%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -74,7 +74,7 @@ This is very different from how tools like [Strix](https://github.com/usestrix/s
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 25.0%
+- **Benchmark score:** 24.9%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
@@ -118,7 +118,7 @@ This is very different from how tools like [Strix](https://github.com/usestrix/s
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
 - **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 25.0%
+- **Benchmark score:** 19.1%
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
