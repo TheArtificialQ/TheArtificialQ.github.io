@@ -24,12 +24,12 @@ layout: base
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      {%- unless post.redirect_to -%}
+      {%- unless post.hidden or post.redirect_to -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            {{ post.title | escape | replace: "-", "&#8209;" | replace: "Hack The Box Challenges", "Hack&nbsp;The&nbsp;Box&nbsp;Challenges" }}
           </a>
         </h3>
         {%- if site.minima.show_excerpts -%}

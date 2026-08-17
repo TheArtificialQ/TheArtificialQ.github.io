@@ -15,7 +15,7 @@ I previously spent a lot of time evaluating new LLMs on offensive security tasks
 
 Strix performs autonomous security testing against complex applications, so a single run can require many steps, tool calls, and tokens. That makes repeated testing expensive. Strix is also evolving rapidly and [improving with each version]({% post_url 2026-06-29-how-much-better-is-strix-1-0-results-from-a-small-rerun %}). Results produced with different versions are therefore not directly comparable: changes in the agent could be mistaken for changes in model performance. A fair comparison would require pinning one Strix version and rerunning every model against it.
 
-I therefore revived an older idea and turned it into my new testing approach: the [HTB-Challenger Benchmark]({{ "/htb-challenger-benchmark" | relative_url }}).
+I therefore revived an older idea and turned it into my new testing approach: the {% include htb-challenger-benchmark-term.html %}.
 
 <!--more-->
 
@@ -35,6 +35,6 @@ The initial release includes three model configurations, each covered in a separ
 - [Solving Hack The Box Challenges with GPT-5.6 Luna Pro]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %})
 - [Solving Hack The Box Challenges with Kimi K3]({% post_url 2026-08-09-solving-htb-challenges-with-moonshotai-kimi-k3 %})
 
-If you want to jump straight to the overall results, visit the [HTB-Challenger Benchmark]({{ "/htb-challenger-benchmark" | relative_url }}) page.
+If you want to jump straight to the overall results, visit the {% include htb-challenger-benchmark-term.html %} page.
 
 This is an ongoing project, and I will continue adding results for new models. If you find it useful, subscribe to the RSS feed linked at the bottom of the page to be notified about new posts or [follow me on X](https://x.com/TheArtificialQ).

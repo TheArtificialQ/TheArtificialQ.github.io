@@ -15,7 +15,7 @@ Kimi K3 landed with a big splash just three weeks ago, and the initial reviewers
 
 > ![HTB-Challenger Benchmark]({{ "/assets/images/htb-challenger-benchmark-logo-full.png" | relative_url }}){: width="300px" }
 >
-> This blog post is part of a series of tests for the HTB-Challenger Benchmark.
+> This blog post is part of a series of tests for the {% include htb-challenger-benchmark-term.html %}.
 > See the [benchmark results page]({{ "/htb-challenger-benchmark" | relative_url }}) for all results and the [benchmark methodology]({{ "/htb-challenger-benchmark-methodology" | relative_url }}) to learn how the benchmark is calculated.
 
 ---
@@ -34,6 +34,14 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 
 ![HTB-Challenger Benchmark LLM model card]({{ "/assets/images/moonshotai-kimi-k3-20260715-model-card.svg" | relative_url }})
 
+## Cost vs. Benchmark Score
+
+The highlighted point is this model. Models closer to the upper-left achieve a higher benchmark score at a lower median cost per challenge.
+
+<object data="{{ "/assets/images/moonshotai-kimi-k3-20260715-cost-vs-benchmark-score.svg" | relative_url }}" type="image/svg+xml" width="800" height="550" aria-label="Interactive Cost vs. Benchmark Score chart with this model highlighted">
+  <img src="{{ "/assets/images/moonshotai-kimi-k3-20260715-cost-vs-benchmark-score.svg" | relative_url }}" alt="Cost vs. Benchmark Score with this model highlighted" width="800" height="550">
+</object>
+
 ## Overall benchmark results
 
 - **Number of challenges:** 16
@@ -46,102 +54,37 @@ Anyway, if your budget is not tight and you need a high-performance model for of
 
 | Metric | Per challenge (median) | Total |
 | --- | ---: | ---: |
-| Model steps | 22 | 489 |
-| Model cost | $0.46 | $26.58 |
-| Duration | 00:07:34 | 05:54:08 |
-| Number of input tokens | 0.33M | 15.40M |
-| Number of output tokens | 0.02M | 0.72M |
-| Number of `read_file` tool calls | 1.0 | 53 |
-| Number of `write_file` tool calls | 3.5 | 59 |
-| Number of `execute_command` tool calls | 15.5 | 440 |
+| Model steps | 22 | 573 |
+| Model cost | $0.46 | $30.56 |
+| Duration | 00:07:34 | 05:37:40 |
+| Number of input tokens | 0.33M | 18.77M |
+| Number of output tokens | 0.02M | 0.66M |
+| Number of `read_file` tool calls | 1.0 | 41 |
+| Number of `write_file` tool calls | 3.5 | 62 |
+| Number of `execute_command` tool calls | 15.5 | 520 |
 | Number of `web_search` tool calls | 0.0 | 3 |
 
 ## Results by challenge difficulty
 
-### Very Easy challenges
+All resource-usage metrics are medians per challenge.
 
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 4
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 96.6%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 16.5 | 61 |
-| Model cost | $0.43 | $1.37 |
-| Duration | 00:04:31 | 00:16:59 |
-| Number of input tokens | 0.15M | 0.64M |
-| Number of output tokens | 0.01M | 0.04M |
-| Number of `read_file` tool calls | 0.5 | 3 |
-| Number of `write_file` tool calls | 2.5 | 13 |
-| Number of `execute_command` tool calls | 9.5 | 51 |
-| Number of `web_search` tool calls | 0.0 | 0 |
-
-### Easy challenges
-
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 3
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 72.6%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 18.5 | 102 |
-| Model cost | $0.44 | $6.11 |
-| Duration | 00:06:11 | 01:08:46 |
-| Number of input tokens | 0.28M | 2.29M |
-| Number of output tokens | 0.02M | 0.22M |
-| Number of `read_file` tool calls | 1.0 | 11 |
-| Number of `write_file` tool calls | 1.5 | 10 |
-| Number of `execute_command` tool calls | 13.0 | 88 |
-| Number of `web_search` tool calls | 0.0 | 3 |
-
-### Medium challenges
-
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 4
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 94.0%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 16.5 | 101 |
-| Model cost | $1.42 | $5.76 |
-| Duration | 00:22:12 | 01:45:50 |
-| Number of input tokens | 0.39M | 3.59M |
-| Number of output tokens | 0.03M | 0.18M |
-| Number of `read_file` tool calls | 1.5 | 13 |
-| Number of `write_file` tool calls | 2.0 | 10 |
-| Number of `execute_command` tool calls | 15.0 | 92 |
-| Number of `web_search` tool calls | 0.0 | 0 |
-
-### Hard challenges
-
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 2
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 45.7%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 49.5 | 225 |
-| Model cost | $3.51 | $13.33 |
-| Duration | 00:30:14 | 02:42:32 |
-| Number of input tokens | 1.93M | 8.88M |
-| Number of output tokens | 0.06M | 0.29M |
-| Number of `read_file` tool calls | 7.5 | 26 |
-| Number of `write_file` tool calls | 6.5 | 26 |
-| Number of `execute_command` tool calls | 46.0 | 209 |
-| Number of `web_search` tool calls | 0.0 | 0 |
+| Metric | Very Easy | Easy | Medium | Hard |
+| --- | ---: | ---: | ---: | ---: |
+| **Results** | | | | |
+| Number of challenges | 4 | 4 | 4 | 4 |
+| <abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr> | 4 | 3 | 4 | 2 |
+| <abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr> | 0 | 0 | 0 | 0 |
+| <abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr> | 0 | 0 | 0 | 1 |
+| <abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr> | 0 | 1 | 0 | 1 |
+| <abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr> | 0 | 0 | 0 | 0 |
+| Benchmark score | 96.6% | 72.6% | 94.0% | 45.7% |
+| **Median per challenge** | | | | |
+| Model steps | 16.5 | 18.5 | 16.5 | 68 |
+| Model cost | $0.43 | $0.44 | $1.42 | $2.39 |
+| Duration | 00:04:31 | 00:06:11 | 00:22:12 | 00:17:31 |
+| Number of input tokens | 0.15M | 0.28M | 0.39M | 2.59M |
+| Number of output tokens | 0.01M | 0.02M | 0.03M | 0.04M |
+| Number of `read_file` tool calls | 0.5 | 1.0 | 1.5 | 1.5 |
+| Number of `write_file` tool calls | 2.5 | 4.5 | 2.0 | 5.5 |
+| Number of `execute_command` tool calls | 9.5 | 13.0 | 15.0 | 62.0 |
+| Number of `web_search` tool calls | 0.0 | 0.0 | 0.0 | 0.0 |

@@ -32,7 +32,7 @@ The selected challenges are all recent, reducing the risk that their solutions w
 Every individual challenge run is subject to three stopping conditions:
 
 - a maximum of 100 model steps;
-- a maximum model cost of $5;
+- a maximum model cost of $15;
 - a maximum LLM response length of 32,768 tokens. If a response exceeds this limit, the model is told that its response was too long and asked to shorten it. If its next response also exceeds the limit, the run is stopped.
 
 These conditions keep tests bounded and give every model the same maximum opportunity and budget for solving a challenge. The response-length condition also detects models that have become stuck. During testing, models facing a task beyond their capabilities sometimes generated extremely long, repetitive reasoning in which they appeared to argue with themselves without making progress. A second consecutive overlong response is treated as an indication that continuing the run is unlikely to be useful. A run also ends when the model submits a result or decides to give up.

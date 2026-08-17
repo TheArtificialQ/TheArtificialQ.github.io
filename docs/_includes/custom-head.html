@@ -1,4 +1,86 @@
 <style>
+  .post-title,
+  .post-list .post-link {
+    text-wrap: balance;
+  }
+
+  .benchmark-term {
+    position: relative;
+    display: inline-block;
+  }
+
+  .benchmark-term__trigger {
+    text-decoration-style: dotted;
+    text-underline-offset: 0.15em;
+  }
+
+  .benchmark-term__tooltip {
+    position: absolute;
+    z-index: 20;
+    bottom: calc(100% + 0.35rem);
+    left: 50%;
+    box-sizing: border-box;
+    width: min(22rem, calc(100vw - 2rem));
+    padding: 0.75rem 0.85rem;
+    color: #e8f7ff;
+    background: #111c23;
+    border: 1px solid #286789;
+    border-radius: 5px;
+    box-shadow: 0 0 18px rgba(0, 145, 218, 0.22),
+                0 6px 18px rgba(0, 0, 0, 0.4);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.45;
+    text-align: left;
+    white-space: normal;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translate(-50%, 0.25rem);
+    transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease;
+  }
+
+  .benchmark-term__tooltip::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border: 0.4rem solid transparent;
+    border-top-color: #286789;
+    content: "";
+    transform: translateX(-50%);
+  }
+
+  .benchmark-term__tooltip a,
+  .benchmark-term__tooltip a:visited {
+    color: #65c8f4;
+  }
+
+  .benchmark-term:hover .benchmark-term__tooltip,
+  .benchmark-term:focus-within .benchmark-term__tooltip {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translate(-50%, 0);
+  }
+
+  .benchmark-term__trigger:focus-visible,
+  .benchmark-term__tooltip a:focus-visible {
+    outline: 2px solid #65c8f4;
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .benchmark-term__tooltip {
+      transition: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .benchmark-term__tooltip {
+      width: min(14rem, calc(100vw - 2rem));
+    }
+  }
+
   .site-header {
     border-top-color: #164c6a;
     border-bottom-color: #1d3a4d;

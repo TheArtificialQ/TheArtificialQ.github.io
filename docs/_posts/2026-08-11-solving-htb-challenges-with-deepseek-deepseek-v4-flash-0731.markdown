@@ -9,7 +9,7 @@ hn_id:
 
 I tested the previous version of DeepSeek V4 Flash, now called **DeepSeek V4 Flash 0423**, with [Strix back in April]({% post_url 2026-04-25-deepseek-v4-with-strix-a-quick-test %}), and I absolutely fell in love with it. It delivered great results at a very low price and became my go-to model for most tasks that didn't require the capabilities of frontier models.
 
-That's why I was looking forward to testing the latest, improved version on my [HTB-Challenger Benchmark]({{ "/htb-challenger-benchmark" | relative_url }}). But the results... Oh dear, oh dear, oh dear. Where do I even start?
+That's why I was looking forward to testing the latest, improved version on my {% include htb-challenger-benchmark-term.html %}. But the results... Oh dear, oh dear, oh dear. Where do I even start?
 
 <!--more-->
 
@@ -17,7 +17,7 @@ That's why I was looking forward to testing the latest, improved version on my [
 
 > ![HTB-Challenger Benchmark]({{ "/assets/images/htb-challenger-benchmark-logo-full.png" | relative_url }}){: width="300px" }
 >
-> This blog post is part of a series of tests for the HTB-Challenger Benchmark.
+> This blog post is part of a series of tests for the {% include htb-challenger-benchmark-term.html %}.
 > See the [benchmark results page]({{ "/htb-challenger-benchmark" | relative_url }}) for all results and the [benchmark methodology]({{ "/htb-challenger-benchmark-methodology" | relative_url }}) to learn how the benchmark is calculated.
 
 ---
@@ -41,6 +41,14 @@ This is very different from how tools like [Strix](https://github.com/usestrix/s
 ---
 
 ![HTB-Challenger Benchmark LLM model card]({{ "/assets/images/deepseek-deepseek-v4-flash-20260731-model-card.svg" | relative_url }})
+
+## Cost vs. Benchmark Score
+
+The highlighted point is this model. Models closer to the upper-left achieve a higher benchmark score at a lower median cost per challenge.
+
+<object data="{{ "/assets/images/deepseek-deepseek-v4-flash-20260731-cost-vs-benchmark-score.svg" | relative_url }}" type="image/svg+xml" width="800" height="550" aria-label="Interactive Cost vs. Benchmark Score chart with this model highlighted">
+  <img src="{{ "/assets/images/deepseek-deepseek-v4-flash-20260731-cost-vs-benchmark-score.svg" | relative_url }}" alt="Cost vs. Benchmark Score with this model highlighted" width="800" height="550">
+</object>
 
 ## Overall benchmark results
 
@@ -66,90 +74,25 @@ This is very different from how tools like [Strix](https://github.com/usestrix/s
 
 ## Results by challenge difficulty
 
-### Very Easy challenges
+All resource-usage metrics are medians per challenge.
 
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 1
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 2
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 1
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 24.9%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 34 | 172 |
-| Model cost | $0.04 | $0.19 |
-| Duration | 00:24:50 | 01:39:53 |
-| Number of input tokens | 0.69M | 3.15M |
-| Number of output tokens | 0.05M | 0.22M |
-| Number of `read_file` tool calls | 3.0 | 12 |
-| Number of `write_file` tool calls | 1.5 | 8 |
-| Number of `execute_command` tool calls | 28.5 | 146 |
-| Number of `web_search` tool calls | 2.5 | 11 |
-
-### Easy challenges
-
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 0
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 2
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 2
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 0.0%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 12 | 52 |
-| Model cost | $0.00 | $0.02 |
-| Duration | 00:01:42 | 00:09:08 |
-| Number of input tokens | 0.07M | 0.54M |
-| Number of output tokens | 0.00M | 0.01M |
-| Number of `read_file` tool calls | 2.0 | 8 |
-| Number of `write_file` tool calls | 0.0 | 0 |
-| Number of `execute_command` tool calls | 10.0 | 43 |
-| Number of `web_search` tool calls | 2.0 | 7 |
-
-### Medium challenges
-
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 1
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 2
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
-- **Benchmark score:** 19.1%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 16.5 | 120 |
-| Model cost | $0.00 | $0.11 |
-| Duration | 00:01:06 | 00:29:49 |
-| Number of input tokens | 0.15M | 3.73M |
-| Number of output tokens | 0.00M | 0.06M |
-| Number of `read_file` tool calls | 2.0 | 12 |
-| Number of `write_file` tool calls | 2.0 | 12 |
-| Number of `execute_command` tool calls | 14.5 | 99 |
-| Number of `web_search` tool calls | 1.0 | 4 |
-
-### Hard challenges
-
-- **Number of challenges:** 4
-- **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 0
-- **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 3
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 0
-- **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 1
-- **Benchmark score:** 0.0%
-
-| Metric | Per challenge (median) | Total |
-| --- | ---: | ---: |
-| Model steps | 13.5 | 99 |
-| Model cost | $0.03 | $0.19 |
-| Duration | 00:10:41 | 00:44:04 |
-| Number of input tokens | 0.35M | 4.29M |
-| Number of output tokens | 0.02M | 0.15M |
-| Number of `read_file` tool calls | 7.0 | 24 |
-| Number of `write_file` tool calls | 2.0 | 13 |
-| Number of `execute_command` tool calls | 11.0 | 72 |
-| Number of `web_search` tool calls | 1.5 | 8 |
+| Metric | Very Easy | Easy | Medium | Hard |
+| --- | ---: | ---: | ---: | ---: |
+| **Results** | | | | |
+| Number of challenges | 4 | 4 | 4 | 4 |
+| <abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr> | 1 | 0 | 1 | 0 |
+| <abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr> | 2 | 2 | 2 | 3 |
+| <abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr> | 0 | 2 | 1 | 0 |
+| <abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr> | 1 | 0 | 0 | 0 |
+| <abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr> | 0 | 0 | 0 | 1 |
+| Benchmark score | 24.9% | 0.0% | 19.1% | 0.0% |
+| **Median per challenge** | | | | |
+| Model steps | 34 | 12 | 16.5 | 13.5 |
+| Model cost | $0.04 | $0.00 | $0.00 | $0.03 |
+| Duration | 00:24:50 | 00:01:42 | 00:01:06 | 00:10:41 |
+| Number of input tokens | 0.69M | 0.07M | 0.15M | 0.35M |
+| Number of output tokens | 0.05M | 0.00M | 0.00M | 0.02M |
+| Number of `read_file` tool calls | 3.0 | 2.0 | 2.0 | 7.0 |
+| Number of `write_file` tool calls | 1.5 | 0.0 | 2.0 | 2.0 |
+| Number of `execute_command` tool calls | 28.5 | 10.0 | 14.5 | 11.0 |
+| Number of `web_search` tool calls | 2.5 | 2.0 | 1.0 | 1.5 |
