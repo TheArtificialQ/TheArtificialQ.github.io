@@ -6,7 +6,7 @@ header_image: /assets/images/htb-challenger-benchmark-bg.png
 header_alt: HTB-Challenger Benchmark
 ---
 
-*Last updated: 2026-08-17 07:29:51 UTC*
+*Last updated: 2026-08-18 05:02:15 UTC*
 
 The HTB-Challenger Benchmark evaluates how well large language models can find and exploit security vulnerabilities. It tests models in a controlled environment against a fixed set of 16 recent Hack The Box challenges of varying difficulty, then measures and compares their performance.
 
@@ -37,8 +37,9 @@ Click a model name in the table to view more details about its benchmark results
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Terra`]({% post_url 2026-08-13-solving-htb-challenges-with-openai-gpt-5.6-terra %}) | 64.6% | $0.24 | 16.5 | 00:03:16 | 0.24M |
 | <img src="{{ "/assets/images/qwen-icon.svg" | relative_url }}" alt="qwen icon" width="22" height="22"> [`Qwen3.8 Max`]({% post_url 2026-08-11-solving-htb-challenges-with-qwen-qwen3.8-max %}) | 62.7% | $2.00 | 29.0 | 00:16:02 | 0.96M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Luna Pro`]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna-pro %}) | 51.3% | $0.10 | 21.5 | 00:08:55 | 1.57M |
-| <img src="{{ "/assets/images/meta-icon.svg" | relative_url }}" alt="meta icon" width="22" height="22"> [`Muse Spark 1.2`]({% post_url 2026-08-17-solving-htb-challenges-with-meta-muse-spark-1.2 %}) | 50.4% | $0.48 | 32.0 | 00:05:36 | 0.98M |
+| <img src="{{ "/assets/images/meta-icon.svg" | relative_url }}" alt="meta icon" width="22" height="22"> [`Muse Spark 1.2`]({% post_url 2026-08-15-solving-htb-challenges-with-meta-muse-spark-1.2 %}) | 50.4% | $0.48 | 32.0 | 00:05:36 | 0.98M |
 | <img src="{{ "/assets/images/deepseek-icon.svg" | relative_url }}" alt="deepseek icon" width="22" height="22"> [`DeepSeek V4 Pro`]({% post_url 2026-08-12-solving-htb-challenges-with-deepseek-deepseek-v4-pro %}) | 36.2% | $0.35 | 62.5 | 00:06:19 | 1.94M |
+| <img src="{{ "/assets/images/tencent-icon.svg" | relative_url }}" alt="tencent icon" width="22" height="22"> [`Hy3`]({% post_url 2026-08-17-evaluating-tencent-hy3-on-hack-the-box-challenges %}) | 34.8% | $0.08 | 18.5 | 00:15:21 | 0.42M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Luna`]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna %}) | 31.6% | $0.02 | 17.5 | 00:04:38 | 0.36M |
 | <img src="{{ "/assets/images/deepseek-icon.svg" | relative_url }}" alt="deepseek icon" width="22" height="22"> [`DeepSeek V4 Flash 0731`]({% post_url 2026-08-11-solving-htb-challenges-with-deepseek-deepseek-v4-flash-0731 %}) | 8.2% | $0.00 | 14.5 | 00:02:29 | 0.10M |
 
