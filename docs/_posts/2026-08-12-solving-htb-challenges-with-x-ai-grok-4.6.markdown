@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with Grok 4.6"
+title:  "Evaluating Grok 4.6 on Hack The Box Challenges"
 date:   2026-08-12 20:05:34 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with Muse Spark 1.2"
+title:  "Evaluating Muse Spark 1.2 on Hack The Box Challenges"
 date:   2026-08-17 05:59:08 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

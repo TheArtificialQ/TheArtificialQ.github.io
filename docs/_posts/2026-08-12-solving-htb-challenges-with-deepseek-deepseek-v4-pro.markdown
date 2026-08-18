@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with DeepSeek V4 Pro"
+title:  "Evaluating DeepSeek V4 Pro on Hack The Box Challenges"
 date:   2026-08-12 09:11:15 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

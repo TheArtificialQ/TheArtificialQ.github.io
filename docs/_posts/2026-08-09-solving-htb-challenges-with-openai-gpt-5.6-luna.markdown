@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with GPT-5.6 Luna"
+title:  "Evaluating GPT-5.6 Luna on Hack The Box Challenges"
 date:   2026-08-10 15:30:47 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

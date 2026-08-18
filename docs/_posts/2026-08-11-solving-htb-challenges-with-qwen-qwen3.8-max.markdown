@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with Qwen3.8 Max"
+title:  "Evaluating Qwen3.8 Max on Hack The Box Challenges"
 date:   2026-08-11 12:46:34 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

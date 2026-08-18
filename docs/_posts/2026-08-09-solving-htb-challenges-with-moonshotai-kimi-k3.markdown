@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with Kimi K3"
+title:  "Evaluating Kimi K3 on Hack The Box Challenges"
 date:   2026-08-10 16:52:46 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

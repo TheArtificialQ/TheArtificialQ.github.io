@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with DeepSeek V4 Flash 0731"
+title:  "Evaluating DeepSeek V4 Flash 0731 on Hack The Box Challenges"
 date:   2026-08-11 20:22:58 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ

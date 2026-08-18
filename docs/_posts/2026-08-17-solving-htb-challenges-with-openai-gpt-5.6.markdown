@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solving Hack The Box Challenges with GPT-5.6"
+title:  "Evaluating GPT-5.6 on Hack The Box Challenges"
 date:   2026-08-17 06:10:31 +0000
 image:  /assets/images/htb-challenger-benchmark-logo-social.png
 author: TheArtificialQ
