@@ -34,9 +34,7 @@ As a result, what you observe - whether in everyday use or in a benchmark - is t
 
 #### How Does the HTB-Challenger Harness Work?
 
-When I started working on the {% include htb-challenger-benchmark-term.html %}, I wanted it to measure the models' behavior, not the sophistication of the harness. I therefore kept its safeguards and recovery mechanisms to a minimum:
-
-For this reason, I kept the mechanisms in my test harness that mitigate or work around model flaws to a minimum. In practice, this is how the harness responds to such failures:
+When I started working on the {% include htb-challenger-benchmark-term.html %}, I wanted it to measure the models' behavior, not the sophistication of the harness. For this reason, I kept the mechanisms in my test harness that mitigate or work around model flaws to a minimum. In practice, this is how the harness responds to such failures:
 
 - When the model reports an incorrect result, I do not ask how confident it is or whether it can revalidate the result. I accept its result, and if it is wrong, I mark it as a false positive and the model gets 0 points.
 - When the model takes many more steps or spends much more money than usual on a given test, I stop the test and the model gets 0 points.
