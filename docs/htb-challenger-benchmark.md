@@ -8,7 +8,7 @@ header_alt: HTB-Challenger Benchmark
 
 *Last updated: 2026-08-18 17:38:22 UTC*
 
-The HTB-Challenger Benchmark evaluates how well large language models can find and exploit security vulnerabilities. It tests models in a controlled environment against a fixed set of 16 recent Hack The Box challenges of varying difficulty, then measures and compares their performance.
+The HTB-Challenger Benchmark evaluates how well large language models can find and exploit security vulnerabilities. It tests models in a controlled environment against a fixed set of 16 recent Hack The Box challenges of varying difficulty, then measures and compares their performance. To understand what these results do - and do not - say about a model, see [What Does the HTB-Challenger Benchmark Actually Measure?]({% post_url 2026-08-20-what-does-htb-challenger-benchmark-actually-measure %}).
 
 For details about challenge selection, the test harness, run limits, and scoring, visit the [HTB-Challenger Benchmark Methodology page]({{ "/htb-challenger-benchmark-methodology" | relative_url }}).
 

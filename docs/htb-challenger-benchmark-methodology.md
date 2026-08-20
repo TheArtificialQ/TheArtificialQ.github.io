@@ -29,13 +29,16 @@ The selected challenges are all recent, reducing the risk that their solutions w
 
 ## Run limits
 
-Every individual challenge run is subject to three stopping conditions:
+Every individual challenge run is bounded by two resource limits and two safeguards against models getting stuck:
 
-- a maximum of 100 model steps;
-- a maximum model cost of $15;
-- a maximum LLM response length of 32,768 tokens. If a response exceeds this limit, the model is told that its response was too long and asked to shorten it. If its next response also exceeds the limit, the run is stopped.
+- A run may use at most 100 model steps.
+- A run stops once the cumulative LLM cost reported by OpenRouter reaches or exceeds $15.
+- Each LLM response is requested with a maximum output length of 32,768 tokens. If OpenRouter reports that a response ended because it reached this limit, the harness does not execute any potentially truncated tool calls and asks the model to respond more concisely. If the next response also reaches the limit, the run stops.
+- If a model makes the exact same tool call - using the same tool and arguments - three times in a row, the harness warns it to change its approach. If the model repeats the call a fourth consecutive time, the run stops before that fourth call is executed.
 
-These conditions keep tests bounded and give every model the same maximum opportunity and budget for solving a challenge. The response-length condition also detects models that have become stuck. During testing, models facing a task beyond their capabilities sometimes generated extremely long, repetitive reasoning in which they appeared to argue with themselves without making progress. A second consecutive overlong response is treated as an indication that continuing the run is unlikely to be useful. A run also ends when the model submits a result or decides to give up.
+These conditions keep tests bounded and give every model the same maximum opportunity and budget for solving a challenge. The latter two conditions prevent a stuck model from spending the rest of its budget on repetitive behavior. They apply only to consecutive responses or tool calls; a response that stays within the output limit or a different tool call resets the corresponding count.
+
+A run also ends when the model submits a syntactically valid result or decides to give up. There is no separate overall wall-clock limit. Individual LLM requests and shell commands have timeouts, but these do not impose a fixed maximum duration on the complete run.
 
 ## Metrics
 
