@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" role="img" aria-labelledby="title desc">
+  <title id="title">HTB-Challenger Benchmark / LLM Model Card</title>
+  <desc id="desc">Model GLM 5.3, exact version z-ai/glm-5.3-20260816, benchmark score 47.2 percent, cost per challenge $0.49, tested 19 August 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071521"/>
+      <stop offset="1" stop-color="#0d2633"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#42d9e8" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="model-name-clip"><rect x="106" y="70" width="429" height="45"/></clipPath>
+  </defs>
+  <rect width="800" height="230" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="798" height="228" rx="17" fill="url(#grid)" stroke="#2f5f6d" stroke-width="2"/>
+  <path d="M28 28h48M28 28v18M772 202h-48M772 202v-18" fill="none" stroke="#45e5ef" stroke-width="3"/>
+  <text x="38" y="51" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">HTB-Challenger Benchmark / LLM Model Card</text>
+  <rect x="38" y="69" width="54" height="54" rx="11" fill="#eef7f8" stroke="#4d7e89"/>
+  <image x="45" y="76" width="40" height="40" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,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"/>
+  <text x="106" y="103" fill="#f2fbfc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" clip-path="url(#model-name-clip)">GLM 5.3</text>
+  <text x="106" y="131" fill="#8db1ba" font-family="Consolas,Menlo,monospace" font-size="13">z-ai/glm-5.3-20260816</text>
+  <line x1="38" y1="151" x2="535" y2="151" stroke="#2b5360"/>
+  <text x="38" y="183" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">TEST WINDOW</text>
+  <text x="164" y="183" fill="#c8dce0" font-family="Consolas,Menlo,monospace" font-size="15">19 August 2026</text>
+  <line x1="570" y1="29" x2="570" y2="201" stroke="#2b5360"/>
+  <text x="596" y="51" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">BENCHMARK SCORE</text>
+  <text x="762" y="128" text-anchor="end" fill="#63f3df" filter="url(#glow)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800">47.2<tspan font-size="30">%</tspan></text>
+  <rect x="596" y="141" width="166" height="7" rx="3.5" fill="#183d48"/>
+  <rect x="596" y="141" width="78.4" height="7" rx="3.5" fill="#63f3df"/>
+  <rect x="596" y="162" width="166" height="36" rx="7" fill="#102e39" stroke="#2b5360"/>
+  <text x="606" y="185" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="700" letter-spacing=".8">COST / CHALLENGE</text>
+  <text x="752" y="186" text-anchor="end" fill="#c8dce0" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700">$0.49</text>
+</svg>

@@ -49,7 +49,7 @@ The highlighted point is this model. Models closer to the upper-left achieve a h
 - **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
 - **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 2
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
+- **<abbr title="Runs that ended because the model appeared to be caught in a never-ending loop.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 70.7%
 
 | Metric | Per challenge (median) | Total |
@@ -76,7 +76,7 @@ All resource-usage metrics are medians per challenge.
 | <abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr> | 0 | 0 | 0 | 0 |
 | <abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr> | 0 | 0 | 0 | 1 |
 | <abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr> | 0 | 1 | 0 | 1 |
-| <abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr> | 0 | 0 | 0 | 0 |
+| <abbr title="Runs that ended because the model appeared to be caught in a never-ending loop.">Runs where the model got stuck</abbr> | 0 | 0 | 0 | 0 |
 | Benchmark score | 96.6% | 72.6% | 94.0% | 45.7% |
 | **Median per challenge** | | | | |
 | Model steps | 16.5 | 18.5 | 16.5 | 68 |

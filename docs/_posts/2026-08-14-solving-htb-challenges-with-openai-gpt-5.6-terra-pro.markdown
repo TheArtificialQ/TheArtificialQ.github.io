@@ -39,9 +39,9 @@ The highlighted point is this model. Models closer to the upper-left achieve a h
 - **Number of challenges:** 16
 - **<abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr>:** 14
 - **<abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr>:** 0
-- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 1
+- **<abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr>:** 2
 - **<abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr>:** 0
-- **<abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr>:** 0
+- **<abbr title="Runs that ended because the model appeared to be caught in a never-ending loop.">Runs where the model got stuck</abbr>:** 0
 - **Benchmark score:** 75.1%
 
 | Metric | Per challenge (median) | Total |
@@ -66,9 +66,9 @@ All resource-usage metrics are medians per challenge.
 | Number of challenges | 4 | 4 | 4 | 4 |
 | <abbr title="Runs where the submitted flag matched the expected flag.">Number of solved challenges</abbr> | 4 | 4 | 4 | 2 |
 | <abbr title="Runs where the submitted flag did not match the expected flag.">Number of false positives</abbr> | 0 | 0 | 0 | 0 |
-| <abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr> | 0 | 0 | 0 | 1 |
+| <abbr title="Runs in which the model decided not to continue and gave up.">Runs where the model gave up</abbr> | 0 | 0 | 0 | 2 |
 | <abbr title="Runs that ended after reaching the maximum number of steps or the maximum total cost.">Runs that reached the step or cost limit</abbr> | 0 | 0 | 0 | 0 |
-| <abbr title="Runs that ended after the model response exceeded the maximal length twice in a row.">Runs where the model got stuck</abbr> | 0 | 0 | 0 | 0 |
+| <abbr title="Runs that ended because the model appeared to be caught in a never-ending loop.">Runs where the model got stuck</abbr> | 0 | 0 | 0 | 0 |
 | Benchmark score | 97.3% | 97.1% | 94.0% | 44.4% |
 | **Median per challenge** | | | | |
 | Model steps | 5 | 9.5 | 20.5 | 29.5 |
