@@ -9,7 +9,7 @@ hn_id:
 
 The **GLM 5.3** model was released just last week. The interesting fact is that it's just a retrained version of **GLM 5.2**, which doesn't give you much hope for good results. But [Z.ai's marketing](https://z.ai/blog/glm-5.3) gave us sentences like: _"As we scaled post-training, cyber capability **developed faster than we expected**."_ and graphs showing better results in CyberGym than both **Mythos 5** and [GPT-5.6 Sol]({% post_url 2026-08-17-solving-htb-challenges-with-openai-gpt-5.6 %}).
 
-Also, the last model I tested from Z.ai was **GLM 5.1**, and it was excellent. So I thought: "OK, maybe, just maybe, this time the marketing isn't overhyped. Maybe we really can get a new open-weight champion..." Well, spoiler alert: we didn't.
+Also, the last model I tested from Z.ai was **GLM 5.1**, and it was excellent. So I thought: "OK, maybe, just maybe, this time the marketing isn't overhyped. Maybe I really can get a new open-weight champion..." Well, spoiler alert: I didn't.
 
 
 <!--more-->
@@ -23,7 +23,7 @@ Also, the last model I tested from Z.ai was **GLM 5.1**, and it was excellent. S
 
 ---
 
-GLM 5.3 landed on my **Cost vs. Benchmark Score** chart right next to [Muse Spark 1.2]({% post_url 2026-08-15-solving-htb-challenges-with-meta-muse-spark-1.2 %}) from the company-who-must-not-be-named, and that's not a good neighborhood. It basically means that its results were mediocre while the price per task was high.
+I tested **GLM 5.3** for my {% include htb-challenger-benchmark-term.html %}, and it landed on the **Cost vs. Benchmark Score** chart right next to [Muse Spark 1.2]({% post_url 2026-08-15-solving-htb-challenges-with-meta-muse-spark-1.2 %}) from the company-who-must-not-be-named, and that's not a good neighborhood. It basically means that its results were mediocre while the price per task was high.
 
 To explain these results, we don't need to look too far. If you read the **Emergent Cyber Capability** section in the [GLM 5.3 release notes](https://z.ai/blog/glm-5.3) carefully - and thanks to [this article](https://www.artificialintelligence-news.com/news/zhipu-glm-5-3-benchmarks-explained/) for bringing it to my attention - you'll see that it scored very well on CyberBench, which measures how good the model is at finding vulnerabilities, but much worse on ExploitBench and ExploitGym, which measure a model's ability to create working exploits. In other words, **GLM 5.3** may be quite good at finding security issues, but it's not very good at exploiting them, especially when you give it a time limit.
 
