@@ -6,7 +6,7 @@ header_image: /assets/images/htb-challenger-benchmark-bg.png
 header_alt: HTB-Challenger Benchmark
 ---
 
-*Last updated: 2026-08-23 10:40:59 UTC*
+*Last updated: 2026-08-25 11:34:44 UTC*
 
 The HTB-Challenger Benchmark evaluates how well large language models can find and exploit security vulnerabilities. It tests models in a controlled environment against a fixed set of 16 recent Hack The Box challenges of varying difficulty, then measures and compares their performance. To understand what these results do - and do not - say about a model, see [What Does the HTB-Challenger Benchmark Actually Measure?]({% post_url 2026-08-20-what-does-htb-challenger-benchmark-actually-measure %}).
 
@@ -45,6 +45,7 @@ Click a model name in the table to view more details about its benchmark results
 | <img src="{{ "/assets/images/deepseek-icon.svg" | relative_url }}" alt="deepseek icon" width="22" height="22"> [`DeepSeek V4 Pro 0423`]({% post_url 2026-08-12-solving-htb-challenges-with-deepseek-deepseek-v4-pro %}) | 36.2% | $0.35 | 62.5 | 00:06:19 | 1.94M |
 | <img src="{{ "/assets/images/tencent-icon.svg" | relative_url }}" alt="tencent icon" width="22" height="22"> [`Hy3`]({% post_url 2026-08-17-evaluating-tencent-hy3-on-hack-the-box-challenges %}) | 34.8% | $0.08 | 18.5 | 00:15:21 | 0.42M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Luna`]({% post_url 2026-08-09-solving-htb-challenges-with-openai-gpt-5.6-luna %}) | 31.6% | $0.02 | 17.5 | 00:04:38 | 0.36M |
+| <img src="{{ "/assets/images/minimax-icon.svg" | relative_url }}" alt="minimax icon" width="22" height="22"> [`MiniMax M3`]({% post_url 2026-08-25-evaluating-minimax-minimax-m3-on-hack-the-box-challenges %}) | 30.5% | $0.16 | 26.5 | 00:07:45 | 0.43M |
 | <img src="{{ "/assets/images/deepseek-icon.svg" | relative_url }}" alt="deepseek icon" width="22" height="22"> [`DeepSeek V4 Flash 0731`]({% post_url 2026-08-11-solving-htb-challenges-with-deepseek-deepseek-v4-flash-0731 %}) | 8.2% | $0.00 | 14.5 | 00:02:29 | 0.10M |
 
 ## Honorable mentions

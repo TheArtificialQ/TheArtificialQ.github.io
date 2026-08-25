@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" role="img" aria-labelledby="title desc">
+  <title id="title">HTB-Challenger Benchmark / LLM Model Card</title>
+  <desc id="desc">Model MiniMax M3, exact version minimax/minimax-m3-20260531, benchmark score 30.5 percent, cost per challenge $0.16, tested 25 August 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071521"/>
+      <stop offset="1" stop-color="#0d2633"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#42d9e8" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="model-name-clip"><rect x="106" y="70" width="429" height="45"/></clipPath>
+  </defs>
+  <rect width="800" height="230" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="798" height="228" rx="17" fill="url(#grid)" stroke="#2f5f6d" stroke-width="2"/>
+  <path d="M28 28h48M28 28v18M772 202h-48M772 202v-18" fill="none" stroke="#45e5ef" stroke-width="3"/>
+  <text x="38" y="51" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">HTB-Challenger Benchmark / LLM Model Card</text>
+  <rect x="38" y="69" width="54" height="54" rx="11" fill="#eef7f8" stroke="#4d7e89"/>
+  <image x="45" y="76" width="40" height="40" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,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"/>
+  <text x="106" y="103" fill="#f2fbfc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" clip-path="url(#model-name-clip)">MiniMax M3</text>
+  <text x="106" y="131" fill="#8db1ba" font-family="Consolas,Menlo,monospace" font-size="13">minimax/minimax-m3-20260531</text>
+  <line x1="38" y1="151" x2="535" y2="151" stroke="#2b5360"/>
+  <text x="38" y="183" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">TEST WINDOW</text>
+  <text x="164" y="183" fill="#c8dce0" font-family="Consolas,Menlo,monospace" font-size="15">25 August 2026</text>
+  <line x1="570" y1="29" x2="570" y2="201" stroke="#2b5360"/>
+  <text x="596" y="51" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">BENCHMARK SCORE</text>
+  <text x="762" y="128" text-anchor="end" fill="#63f3df" filter="url(#glow)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800">30.5<tspan font-size="30">%</tspan></text>
+  <rect x="596" y="141" width="166" height="7" rx="3.5" fill="#183d48"/>
+  <rect x="596" y="141" width="50.5" height="7" rx="3.5" fill="#63f3df"/>
+  <rect x="596" y="162" width="166" height="36" rx="7" fill="#102e39" stroke="#2b5360"/>
+  <text x="606" y="185" fill="#6f98a4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="700" letter-spacing=".8">COST / CHALLENGE</text>
+  <text x="752" y="186" text-anchor="end" fill="#c8dce0" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700">$0.16</text>
+</svg>
