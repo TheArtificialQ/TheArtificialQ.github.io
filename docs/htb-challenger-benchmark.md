@@ -6,7 +6,7 @@ header_image: /assets/images/htb-challenger-benchmark-bg.png
 header_alt: HTB-Challenger Benchmark
 ---
 
-*Last updated: 2026-08-25 11:34:44 UTC*
+*Last updated: 2026-08-27 13:57:22 UTC*
 
 The HTB-Challenger Benchmark evaluates how well large language models can find and exploit security vulnerabilities. It tests models in a controlled environment against a fixed set of 16 recent Hack The Box challenges of varying difficulty, then measures and compares their performance. To understand what these results do - and do not - say about a model, see [What Does the HTB-Challenger Benchmark Actually Measure?]({% post_url 2026-08-20-what-does-htb-challenger-benchmark-actually-measure %}).
 
@@ -31,7 +31,7 @@ Click a model name in the table to view more details about its benchmark results
 | Model | Score | Cost | Steps | Duration | Tokens |
 | ---  | ---: | ---: | ---: | ---: | ---: |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Sol`]({% post_url 2026-08-13-solving-htb-challenges-with-openai-gpt-5.6-sol %}) | 87.2% | $0.29 | 8.5 | 00:02:05 | 0.09M |
-| <img src="{{ "/assets/images/stealth-icon.svg" | relative_url }}" alt="stealth icon" width="22" height="22"> [`Ox Alpha`]({% post_url 2026-08-21-evaluating-stealth-ox-alpha-on-hack-the-box-challenges %}) | 81.4% | $0.00 | 25.0 | 00:10:13 | 0.54M |
+| <img src="{{ "/assets/images/z-ai-icon.svg" | relative_url }}" alt="z-ai icon" width="22" height="22"> [`GLM 5.3 Flash`]({% post_url 2026-08-27-evaluating-z-ai-glm-5.3-flash-on-hack-the-box-challenges %}) | 81.0% | $0.01 | 24.5 | 00:10:52 | 0.47M |
 | <img src="{{ "/assets/images/x-ai-icon.svg" | relative_url }}" alt="x-ai icon" width="22" height="22"> [`Grok 4.6`]({% post_url 2026-08-12-solving-htb-challenges-with-x-ai-grok-4.6 %}) | 76.1% | $0.23 | 14.0 | 00:03:38 | 0.24M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Terra Pro`]({% post_url 2026-08-14-solving-htb-challenges-with-openai-gpt-5.6-terra-pro %}) | 75.1% | $0.91 | 11.0 | 00:08:22 | 0.66M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Luna + GPT-5.6 Sol`]({% post_url 2026-08-23-evaluating-openai-gpt-5.6-luna-openai-gpt-5.6-sol-on-hack-the-box-challenges %}) | 74.5% | $0.07 | 20.0 | 00:06:02 | 0.61M |
