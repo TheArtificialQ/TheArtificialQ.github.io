@@ -6,7 +6,7 @@ header_image: /assets/images/htb-challenger-benchmark-bg.png
 header_alt: HTB-Challenger Benchmark
 ---
 
-*Last updated: 2026-09-06 09:32:44 UTC*
+*Last updated: 2026-09-12 07:00:36 UTC*
 
 The HTB-Challenger Benchmark evaluates how well large language models can find and exploit security vulnerabilities. It tests models in a controlled environment against a fixed set of 16 recent Hack The Box challenges of varying difficulty, then measures and compares their performance. To understand what these results do - and do not - say about a model, see [What Does the HTB-Challenger Benchmark Actually Measure?]({% post_url 2026-08-20-what-does-htb-challenger-benchmark-actually-measure %}).
 
@@ -32,6 +32,7 @@ Click a model name in the table to view more details about its benchmark results
 | ---  | ---: | ---: | ---: | ---: | ---: |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Sol`]({% post_url 2026-08-13-solving-htb-challenges-with-openai-gpt-5.6-sol %}) | 87.2% | $0.29 | 8.5 | 00:02:05 | 0.09M |
 | <img src="{{ "/assets/images/z-ai-icon.svg" | relative_url }}" alt="z-ai icon" width="22" height="22"> [`GLM 5.3 Flash`]({% post_url 2026-08-27-evaluating-z-ai-glm-5.3-flash-on-hack-the-box-challenges %}) | 81.0% | $0.01 | 24.5 | 00:10:52 | 0.47M |
+| <img src="{{ "/assets/images/deepseek-icon.svg" | relative_url }}" alt="deepseek icon" width="22" height="22"> [`DeepSeek V4.1 Flash`]({% post_url 2026-09-10-evaluating-deepseek-deepseek-v4.1-flash-on-hack-the-box-challenges %}) | 80.9% | $0.05 | 26.0 | 00:07:50 | 0.95M |
 | <img src="{{ "/assets/images/x-ai-icon.svg" | relative_url }}" alt="x-ai icon" width="22" height="22"> [`Grok 4.6`]({% post_url 2026-08-12-solving-htb-challenges-with-x-ai-grok-4.6 %}) | 76.1% | $0.23 | 14.0 | 00:03:38 | 0.24M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Terra Pro`]({% post_url 2026-08-14-solving-htb-challenges-with-openai-gpt-5.6-terra-pro %}) | 75.1% | $0.91 | 11.0 | 00:08:22 | 0.66M |
 | <img src="{{ "/assets/images/openai-icon.svg" | relative_url }}" alt="openai icon" width="22" height="22"> [`GPT-5.6 Luna + GPT-5.6 Sol`]({% post_url 2026-08-23-evaluating-openai-gpt-5.6-luna-openai-gpt-5.6-sol-on-hack-the-box-challenges %}) | 74.5% | $0.07 | 20.0 | 00:06:02 | 0.61M |
@@ -51,12 +52,11 @@ Click a model name in the table to view more details about its benchmark results
 
 ## Honorable mentions
 
-I also attempted to run the benchmark with the following frontier models from Anthropic, OpenAI and Google:
+I also attempted to run the benchmark with the following frontier models from Anthropic and Google:
 
 - **Claude Opus 4.8**
 - **Claude Opus 5**
 - **Claude Fable 5**
-- **GPT-6 Astra** (even with active [Daybreak - Trusted Access for Cyber program](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/))
 - **Gemini 3.7 Flash**
 
 Unfortunately, each of these models eventually refused to continue testing, returning messages such as: “This content was flagged for possible cybersecurity risk.” As a result, these models are not included in the benchmark results.
